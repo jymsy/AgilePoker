@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066E992C1BDC678E00105F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 066E992B1BDC678E00105F30 /* main.m */; };
+		066E992F1BDC678E00105F30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 066E992E1BDC678E00105F30 /* AppDelegate.m */; };
+		066E99321BDC678E00105F30 /* EnterRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 066E99311BDC678E00105F30 /* EnterRoomViewController.m */; };
+		066E99351BDC678E00105F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 066E99331BDC678E00105F30 /* Main.storyboard */; };
+		066E99371BDC678E00105F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066E99361BDC678E00105F30 /* Assets.xcassets */; };
+		066E993A1BDC678E00105F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 066E99381BDC678E00105F30 /* LaunchScreen.storyboard */; };
+		066E99431BDC81A600105F30 /* VerificationCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 066E99421BDC81A600105F30 /* VerificationCodeViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		066E99271BDC678E00105F30 /* AgilePoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgilePoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		066E992B1BDC678E00105F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		066E992D1BDC678E00105F30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		066E992E1BDC678E00105F30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		066E99301BDC678E00105F30 /* EnterRoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnterRoomViewController.h; sourceTree = "<group>"; };
+		066E99311BDC678E00105F30 /* EnterRoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnterRoomViewController.m; sourceTree = "<group>"; };
+		066E99341BDC678E00105F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		066E99361BDC678E00105F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		066E99391BDC678E00105F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		066E993B1BDC678E00105F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		066E99411BDC81A600105F30 /* VerificationCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationCodeViewController.h; sourceTree = "<group>"; };
+		066E99421BDC81A600105F30 /* VerificationCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		066E99241BDC678E00105F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066E991E1BDC678D00105F30 = {
+			isa = PBXGroup;
+			children = (
+				066E99291BDC678E00105F30 /* AgilePoker */,
+				066E99281BDC678E00105F30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		066E99281BDC678E00105F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				066E99271BDC678E00105F30 /* AgilePoker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		066E99291BDC678E00105F30 /* AgilePoker */ = {
+			isa = PBXGroup;
+			children = (
+				066E992D1BDC678E00105F30 /* AppDelegate.h */,
+				066E992E1BDC678E00105F30 /* AppDelegate.m */,
+				066E99411BDC81A600105F30 /* VerificationCodeViewController.h */,
+				066E99421BDC81A600105F30 /* VerificationCodeViewController.m */,
+				066E99301BDC678E00105F30 /* EnterRoomViewController.h */,
+				066E99311BDC678E00105F30 /* EnterRoomViewController.m */,
+				066E99331BDC678E00105F30 /* Main.storyboard */,
+				066E99361BDC678E00105F30 /* Assets.xcassets */,
+				066E99381BDC678E00105F30 /* LaunchScreen.storyboard */,
+				066E993B1BDC678E00105F30 /* Info.plist */,
+				066E992A1BDC678E00105F30 /* Supporting Files */,
+			);
+			path = AgilePoker;
+			sourceTree = "<group>";
+		};
+		066E992A1BDC678E00105F30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				066E992B1BDC678E00105F30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		066E99261BDC678E00105F30 /* AgilePoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066E993E1BDC678E00105F30 /* Build configuration list for PBXNativeTarget "AgilePoker" */;
+			buildPhases = (
+				066E99231BDC678E00105F30 /* Sources */,
+				066E99241BDC678E00105F30 /* Frameworks */,
+				066E99251BDC678E00105F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgilePoker;
+			productName = AgilePoker;
+			productReference = 066E99271BDC678E00105F30 /* AgilePoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		066E991F1BDC678D00105F30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "蒋羽萌";
+				TargetAttributes = {
+					066E99261BDC678E00105F30 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = WEVX4BK6PG;
+					};
+				};
+			};
+			buildConfigurationList = 066E99221BDC678D00105F30 /* Build configuration list for PBXProject "AgilePoker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 066E991E1BDC678D00105F30;
+			productRefGroup = 066E99281BDC678E00105F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				066E99261BDC678E00105F30 /* AgilePoker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		066E99251BDC678E00105F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066E993A1BDC678E00105F30 /* LaunchScreen.storyboard in Resources */,
+				066E99371BDC678E00105F30 /* Assets.xcassets in Resources */,
+				066E99351BDC678E00105F30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		066E99231BDC678E00105F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066E99431BDC81A600105F30 /* VerificationCodeViewController.m in Sources */,
+				066E99321BDC678E00105F30 /* EnterRoomViewController.m in Sources */,
+				066E992F1BDC678E00105F30 /* AppDelegate.m in Sources */,
+				066E992C1BDC678E00105F30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		066E99331BDC678E00105F30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				066E99341BDC678E00105F30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		066E99381BDC678E00105F30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				066E99391BDC678E00105F30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		066E993C1BDC678E00105F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		066E993D1BDC678E00105F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		066E993F1BDC678E00105F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgilePoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jym.AgilePoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		066E99401BDC678E00105F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AgilePoker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jym.AgilePoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		066E99221BDC678D00105F30 /* Build configuration list for PBXProject "AgilePoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066E993C1BDC678E00105F30 /* Debug */,
+				066E993D1BDC678E00105F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		066E993E1BDC678E00105F30 /* Build configuration list for PBXNativeTarget "AgilePoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066E993F1BDC678E00105F30 /* Debug */,
+				066E99401BDC678E00105F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 066E991F1BDC678D00105F30 /* Project object */;
+}
