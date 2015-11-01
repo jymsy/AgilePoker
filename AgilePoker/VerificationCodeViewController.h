@@ -10,6 +10,6 @@
 
 @interface VerificationCodeViewController : UIViewController
 
-@property (nonatomic) NSString *roomNumber;
+@property (nonatomic, copy) NSString *roomNumber;
 
 @end
